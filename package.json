@@ -4,6 +4,21 @@
   "private": true,
   "description": "Per-conversation lock that decides whether other agents may deliver messages into a session, with an in-conversation unlock control",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzhw615/dsh-conversation-lock.git"
+  },
+  "homepage": "https://github.com/kzhw615/dsh-conversation-lock#readme",
+  "bugs": {
+    "url": "https://github.com/kzhw615/dsh-conversation-lock/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent-collaboration",
+    "conversation-lock"
+  ],
   "type": "module",
   "exports": {
     ".": "./index.js",

@@ -8,6 +8,17 @@ deliver a message into it is refused and told that only you can unlock it. While
 it is **unlocked**, any agent running in the same Harness can deliver a message
 into that conversation.
 
+## Install
+
+DeepSeek Harness → **Plugins** → **Add plugin**, then give it this repository:
+
+```
+https://github.com/kzhw615/dsh-conversation-lock
+```
+
+The bundle needs `dsh >= 0.2.2-rc.2`. It registers one Host row plus the Web
+Client controls; no build step, no dependencies, no network access.
+
 ## Where it appears
 
 | Surface | What it does |
