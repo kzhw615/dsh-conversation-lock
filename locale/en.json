@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Conversation lock",
+    "description": "Decides whether other agents may send messages into a conversation. Every conversation starts locked, and the lock chip in the composer tool row shows the state and toggles it; the same toggle is a row in the Session's \"...\" menu, and a small lock glyph on every Session row makes the state of the whole list readable at a glance. While a conversation is unlocked, any agent in this Host process can deliver a message into it with the `send_conversation_message` tool, and `list_conversations` reports which conversations are open. The target is addressed by Session id, must currently be open in this Host, and receives the text as an agent message. Only you can change a lock: the setting is stored in your Harness home and survives a restart, and no agent tool can unlock a conversation."
+  }
+}

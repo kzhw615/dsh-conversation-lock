@@ -1,0 +1,23 @@
+# Dependencies (this bundle has none, but a local install may create these)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Logs and local diagnostics
+*.log
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local secrets and runtime state
+.env
+.env.*
+.credentials.yaml
+conversation-lock/
+
+# Packed artefacts
+*.tgz

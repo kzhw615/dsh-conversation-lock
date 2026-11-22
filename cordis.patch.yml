@@ -1,0 +1,8 @@
+# Conversation lock: one Host row that owns the per-Session lock state, the
+# authenticated state route behind the browser controls, and the two
+# agent-facing tools. The Web Client half registers the unlock control in the
+# conversation, the state badge on Session rows, and the Session menu toggle.
+- insert:
+    - id: conversation-lock
+      name: 'dsh-conversation-lock'
+      config: {}
